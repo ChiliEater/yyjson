@@ -1,7 +1,7 @@
 # Maintainer: Vincent Bernardoff <vb@luminar.eu.org>
 
 pkgname=yyjson
-pkgver=0.5.1
+pkgver=0.8.0
 pkgrel=1
 pkgdesc="A high performance C JSON library"
 arch=('i686' 'x86_64' 'armv7h' 'aarch64')
@@ -10,7 +10,7 @@ license=('MIT')
 depends=()
 makedepends=('cmake')
 source=("https://github.com/ibireme/yyjson/archive/refs/tags/${pkgver}.tar.gz")
-sha256sums=('b484d40b4e20cc3174a6fdc160d0f20f961417f9cb3f6dc1cf6555fffa8359f3')
+sha512sums=('3872b46930fd0f4d659004a4d08cdb1c506ccc2bf2888f5ee50523929a2b72f9d8e72ee71dc958ebca630f1886858d4350521bffc18c300a27d25436833384a9')
 
 build() {
     cd "${srcdir}/${pkgname}-${pkgver}"
